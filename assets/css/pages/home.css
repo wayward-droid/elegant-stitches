@@ -1,0 +1,2 @@
+@import url('../styles.css');
+.hero-copy{animation:heroIn .8s ease both}@keyframes heroIn{from{opacity:0;transform:translateY(25px)}to{opacity:1;transform:none}}

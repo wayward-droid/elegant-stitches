@@ -1,0 +1,26 @@
+@import url('../styles.css');
+
+.story-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+    text-align: left
+}
+
+.story-layout img {
+    height: 430px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: var(--radius)
+}
+
+@media(max-width:760px) {
+    .story-layout {
+        grid-template-columns: 1fr
+    }
+
+    .story-layout img {
+        height: 300px
+    }
+}

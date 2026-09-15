@@ -1,0 +1,3 @@
+@import url('../styles.css');
+/* Page-specific styling for jacket */
+.product-detail{animation:pageIn .55s ease both}@keyframes pageIn{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}

@@ -1,0 +1,7 @@
+@import url('../styles.css');
+
+.summary-card {
+    align-self: start;
+    position: sticky;
+    top: 92px
+}
