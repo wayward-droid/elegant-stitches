@@ -36,9 +36,6 @@ $page_css = $page_css ?? 'general';
             <a class="<?= $active === 'about' ? 'active' : '' ?>" href="about.php">
                 About
             </a>
-            <a href="cart.php" aria-label="Cart">
-                Cart <span class="cart-count"><?= array_sum($_SESSION['cart'] ?? []) ?></span>
-            </a>
             <?php if (isset($_SESSION['user_id'])): ?>
                 <a href="account.php"><?= e(explode(' ', $_SESSION['full_name'])[0]) ?></a>
                 <a class="login-button" href="logout.php">Logout</a>

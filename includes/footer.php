@@ -47,5 +47,10 @@
         <span>Privacy &nbsp; Terms &nbsp; Refunds</span>
     </div>
 </footer>
+<a href="cart.php" id="floating-cart" aria-label="View cart">
+    🛒
+    <span id="floating-cart-count" class="cart-count"><?= array_sum($_SESSION['cart'] ?? []) ?></span>
+</a>
+
 </body>
 </html>
